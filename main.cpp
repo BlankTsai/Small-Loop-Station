@@ -12,7 +12,7 @@
 using namespace std;
 
 void showMenu() {
-    Utils::printFormatted("Loop Station Menu", '=');
+    Utils::printFormatted("Small Loop Station Menu", '=');
     cout << "1. Add Track\n";
     cout << "2. Record Note to Track\n";
     cout << "3. Clear Track\n";
@@ -24,7 +24,7 @@ void showMenu() {
 }
 
 void showWelcomeScreen() {
-    Utils::printFormatted("Welcome to the Loop Station!", '=');
+    Utils::printFormatted("Welcome to Small Loop Station!", '=');
     cout << "Create and manage your music loops with ease.\n";
     cout << "You can add tracks, record notes, and play them back.\n";
     cout << "Let's get started!\n\n";
