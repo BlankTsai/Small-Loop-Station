@@ -1,0 +1,18 @@
+# Compiled output
+*.exe
+*.o
+*.obj
+*.pdb
+build/
+
+# Local editor settings
+.vscode/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# OS metadata
+.DS_Store
+Thumbs.db
